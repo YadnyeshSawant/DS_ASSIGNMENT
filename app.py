@@ -8,7 +8,8 @@ data = pickle.load(open('ames_model.pkl', 'rb'))
 model = data['model']
 features = data['features']
 
-st.title("House Price Prediction (Ames Dataset)")
+st.title("House Price Prediction")
+st.title("(Ames Dataset)")
 
 st.write("Enter basic house details:")
 
