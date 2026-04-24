@@ -52,4 +52,4 @@ if st.button("Predict Price"):
     # Convert to Lakhs
     price_lakhs = price_inr / 100000
 
-    st.success(f"💰 Estimated Price: ₹{round(price_lakhs, 2)} Lakhs")
+    st.success(f"Estimated Price: ₹{round(price_lakhs, 2)} Lakhs")
